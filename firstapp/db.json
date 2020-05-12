@@ -1,173 +1,50 @@
 {
-    "users":[
-        {
-          "id": 1,
-          "name": "Leanne Graham",
-          "Summary": "Bret",
-          "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-          "address": {
-            "street": "Kulas Light",
-            "suite": "Apt. 556",
-            "city": "Gwenborough",
-            "zipcode": "92998-3874",
-            "geo": {
-              "lat": "-37.3159",
-              "lng": "81.1496"
-            }
-          },
-          "CreatedOn": "02-04-2000",
-          "Priority": "High",
-          "DueDate": "04-02-2012",
-          "company": {
-            "name": "Romaguera-Crona",
-            "catchPhrase": "Multi-layered client-server neural-net",
-            "bs": "harness real-time e-markets"
-          }
-        },
-        {
-            "id": 2,
-            "name": "Leanne Graham",
-            "Summary": "Bret",
-            "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-            "address": {
-              "street": "Kulas Light",
-              "suite": "Apt. 556",
-              "city": "Gwenborough",
-              "zipcode": "92998-3874",
-              "geo": {
-                "lat": "-37.3159",
-                "lng": "81.1496"
-              }
-            },
-            "CreatedOn": "02-04-2000",
-            "Priority": "Medium",
-            "DueDate": "04-02-2012",
-            "company": {
-              "name": "Romaguera-Crona",
-              "catchPhrase": "Multi-layered client-server neural-net",
-              "bs": "harness real-time e-markets"
-            }
-          },
-       
-        {
-          "id": 3,
-          "name": "Leanne Graham",
-          "Summary": "Bret",
-          "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-          "address": {
-            "street": "Kulas Light",
-            "suite": "Apt. 556",
-            "city": "Gwenborough",
-            "zipcode": "92998-3874",
-            "geo": {
-              "lat": "-37.3159",
-              "lng": "81.1496"
-            }
-          },
-          "CreatedOn": "02-04-2000",
-          "Priority": "Low",
-          "DueDate": "04-02-2012",
-          "company": {
-            "name": "Romaguera-Crona",
-            "catchPhrase": "Multi-layered client-server neural-net",
-            "bs": "harness real-time e-markets"
-          }
-        },
-        {
-          "id": 4,
-          "name": "Leanne Graham",
-          "Summary": "Bret",
-          "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-          "address": {
-            "street": "Kulas Light",
-            "suite": "Apt. 556",
-            "city": "Gwenborough",
-            "zipcode": "92998-3874",
-            "geo": {
-              "lat": "-37.3159",
-              "lng": "81.1496"
-            }
-          },
-          "CreatedOn": "02-04-2000",
-          "Priority": "High",
-          "DueDate": "04-02-2012",
-          "company": {
-            "name": "Romaguera-Crona",
-            "catchPhrase": "Multi-layered client-server neural-net",
-            "bs": "harness real-time e-markets"
-          }
-        },
-        {
-          "id": 5,
-          "name": "Leanne Graham",
-          "Summary": "Bret",
-          "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-          "address": {
-            "street": "Kulas Light",
-            "suite": "Apt. 556",
-            "city": "Gwenborough",
-            "zipcode": "92998-3874",
-            "geo": {
-              "lat": "-37.3159",
-              "lng": "81.1496"
-            }
-          },
-          "CreatedOn": "02-04-2000",
-          "Priority": "None",
-          "DueDate": "04-02-2012",
-          "company": {
-            "name": "Romaguera-Crona",
-            "catchPhrase": "Multi-layered client-server neural-net",
-            "bs": "harness real-time e-markets"
-          }
-        },
-        {
-          "id": 6,
-          "name": "Leanne Graham",
-          "Summary": "Bret",
-          "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-          "address": {
-            "street": "Kulas Light",
-            "suite": "Apt. 556",
-            "city": "Gwenborough",
-            "zipcode": "92998-3874",
-            "geo": {
-              "lat": "-37.3159",
-              "lng": "81.1496"
-            }
-          },
-          "CreatedOn": "02-04-2000",
-          "Priority": "Medium",
-          "DueDate": "04-02-2012",
-          "company": {
-            "name": "Romaguera-Crona",
-            "catchPhrase": "Multi-layered client-server neural-net",
-            "bs": "harness real-time e-markets"
-          }
-        },
-        {
-          "id": 7,
-          "name": "Kurtis Weissnat",
-          "Summary": "Bret",
-          "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-          "address": {
-            "street": "Kulas Light",
-            "suite": "Apt. 556",
-            "city": "Gwenborough",
-            "zipcode": "92998-3874",
-            "geo": {
-              "lat": "-37.3159",
-              "lng": "81.1496"
-            }
-          },
-          "CreatedOn": "02-04-2000",
-          "Priority": "Low",
-          "DueDate": "04-02-2012",
-          "company": {
-            "name": "Romaguera-Crona",
-            "catchPhrase": "Multi-layered client-server neural-net",
-            "bs": "harness real-time e-markets"
-          }
-        }
-      ]
+  "users": [
+    {
+      "id": 6,
+      "name": "Leanne Graham",
+      "Summary": "Bret",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "CreatedOn": "02-04-2000",
+      "Priority": "Low",
+      "DueDate": "04-02-2012",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "Summary": "Bret",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "CreatedOn": "02-04-2000",
+      "Priority": "Low",
+      "DueDate": "04-02-2012",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      },
+      "undefined": "1"
+    },
+    {
+      "Summary": "nmbjdsbfsk",
+      "Priority": "",
+      "CreatedOn": "",
+      "DueDate": "12-04-2020",
+      "Description": "mdkjsd",
+      "": "1",
+      "id": 8
+    },
+    {
+      "Summary": "Bret liston",
+      "Priority": "",
+      "CreatedOn": "2020-05-12",
+      "DueDate": "17-5-2020",
+      "Description": "This is my first to-do app",
+      "id": 9
+    }
+  ]
 }

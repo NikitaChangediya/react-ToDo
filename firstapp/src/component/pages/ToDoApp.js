@@ -4,20 +4,20 @@ import { Link } from "react-router-dom";
 
 
 const ToDoApp = () =>{
-    const [menu,setMenu] = useState([]);
+    const [user,setUser] = useState([]);
 
     useEffect(() =>{
-   loadMenus();
+   loadUser();
     },[]);
 
-    const loadMenus = async () =>{
+    const loadUser = async () =>{
         const result = await axios.get("http://localhost:3003/users");
-        setMenu(result.data.reverse());
+        setUser(result.data.reverse());
     }
 
     const Delete = async id => {
         await axios.delete(`http://localhost:3003/users/${id}`);
-        loadMenus();
+        loadUser();
       };
 
 
@@ -54,24 +54,24 @@ const ToDoApp = () =>{
       <th scope="col">Summary</th>
       <th scope="col">Priority</th>
       <th scope="col">CreatedOn</th>
-      <th scope="col">DueBy</th>
+      <th scope="col">DueDate</th>
       <th scope="col">Action</th>
      
     </tr>
   </thead>
   {
-      menu.map((user,index)=>(
+      user.map((user,index)=>(
         <tr>
         <th scope="row">{index + 1}</th>
         <td>{user.Summary}</td>
         <td>{user.Priority}</td>
         <td>{user.CreatedOn}</td>
-        <td>{user.DueBy}</td>
+        <td>{user.DueDate}</td>
         <td>
                   <Link class="btn btn-primary mr-2" to={`/Operation/${user.id}`}>
                     View
                   </Link>
-                  <Link class="btn btn-outline-primary mr-2" to={`/Operation/${user.id}`}>
+                  <Link class="btn btn-outline-primary mr-2" to={`/Operation/Edit/${user.id}`}>
                     Edit
                   </Link>
                   <Link class="btn btn-danger" onClick={() => Delete(user.id)} >

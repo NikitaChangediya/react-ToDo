@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import axios from "axios";
 
 const View = () => {
-  const [menu, setMenu] = useState({
+  const [user, setUser] = useState({
     Summary: "",
     Description: "",
     CreatedOn: "",
@@ -12,11 +12,11 @@ const View = () => {
   });
   const { id } = useParams();
   useEffect(() => {
-    loadMenu();
+    loadUser();
   }, []);
-  const loadMenu = async () => {
+  const loadUser = async () => {
     const res = await axios.get(`http://localhost:3003/users/${id}`);
-    setMenu(res.data);
+    setUser(res.data);
   };
   return (
     <div className="container py-4">
@@ -26,11 +26,11 @@ const View = () => {
       <h1 className="display-4">Id: {id}</h1>
       <hr />
       <ul className="list-group w-50">
-        <li className="list-group-item">Summary: {menu.Summary}</li>
-        <li className="list-group-item">Description: {menu.Description}</li>
-        <li className="list-group-item">CreatedOn: {menu.CreatedOn}</li>
-        <li className="list-group-item">Due By: {menu.DueDate}</li>
-        <li className="list-group-item">Priority: {menu.Priority}</li>
+        <li className="list-group-item">Summary: {user.Summary}</li>
+        <li className="list-group-item">Description: {user.Description}</li>
+        <li className="list-group-item">CreatedOn: {user.CreatedOn}</li>
+        <li className="list-group-item">Due By: {user.DueDate}</li>
+        <li className="list-group-item">Priority: {user.Priority}</li>
       </ul>
     </div>
   );
