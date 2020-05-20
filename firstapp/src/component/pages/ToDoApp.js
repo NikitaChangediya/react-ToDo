@@ -69,7 +69,7 @@ const ToDoApp = () =>{
         <td>{user.DueDate}</td>
         <td>
                   <Link class="btn btn-primary mr-2" to={`/Operation/${user.id}`}>
-                    View
+                   Done
                   </Link>
                   <Link class="btn btn-outline-primary mr-2" to={`/Operation/Edit/${user.id}`}>
                     Edit
