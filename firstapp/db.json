@@ -1,20 +1,6 @@
 {
   "users": [
     {
-      "id": 6,
-      "name": "Leanne Graham",
-      "Summary": "Bret",
-      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-      "CreatedOn": "02-04-2000",
-      "Priority": "Low",
-      "DueDate": "04-02-2012",
-      "company": {
-        "name": "Romaguera-Crona",
-        "catchPhrase": "Multi-layered client-server neural-net",
-        "bs": "harness real-time e-markets"
-      }
-    },
-    {
       "id": 7,
       "name": "Kurtis Weissnat",
       "Summary": "Bret",
@@ -30,21 +16,30 @@
       "undefined": "1"
     },
     {
-      "Summary": "nmbjdsbfsk",
+      "Summary": "John Luis",
       "Priority": "",
-      "CreatedOn": "",
-      "DueDate": "12-04-2020",
-      "Description": "mdkjsd",
-      "": "1",
-      "id": 8
+      "CreatedOn": "2020-05-20",
+      "DueDate": "2020-05-30",
+      "Description": "Hey this is the react to-do app with CRUD operation. Happy to create this.",
+      "": "2",
+      "id": 12
     },
     {
-      "Summary": "Bret liston",
+      "Summary": "Jimy Chooo",
       "Priority": "",
-      "CreatedOn": "2020-05-12",
-      "DueDate": "17-5-2020",
-      "Description": "This is my first to-do app",
-      "id": 9
+      "CreatedOn": "2020-05-20",
+      "DueDate": "2020-05-28",
+      "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "": "2",
+      "id": 14
+    },
+    {
+      "Summary": "Nikita Changediya",
+      "Priority": "",
+      "CreatedOn": "2020-05-20",
+      "DueDate": "2020-05-30",
+      "Description": "Hey how are you",
+      "id": 15
     }
   ]
 }
